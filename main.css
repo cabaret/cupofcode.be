@@ -1,7 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
   font-weight: 400;
 }
+
+@media (max-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+}
+
 .logo {
   margin: 60px auto 60px;
   max-width: 200px;
@@ -19,9 +31,14 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+
 @media (max-width: 400px) {
   .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 90%;
+    margin: 0 auto;
   }
 }
 .info a {
@@ -31,7 +48,15 @@ body {
   font-weight: 300;
   text-align: center;
   line-height: 1.6;
-  max-width: 600px;
+  max-width: 720px;
   width: 100%;
   margin: 0 auto 50px;
+  padding: 0 2em;
+}
+@media (max-width: 400px) {
+  .text {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 90%;
+  }
 }
