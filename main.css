@@ -1,1 +1,37 @@
-.logo{margin:60px auto 60px;max-width: 200px;text-align:center}@media (max-width:400px){.logo img{width:80%}}.info{font-family:'Helvetica Neue';font-weight:200;text-align:center;line-height:1.5}@media (max-width:400px){.info{width:90%}}.info a{color:#222}.text{font-family:'Helvetica Neue';font-weight:200;text-align:center;line-height:1.6;max-width:600px;width:100%;margin: 0 auto 50px;}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.logo {
+  margin: 60px auto 60px;
+  max-width: 200px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .logo img {
+    width: 80%;
+  }
+}
+
+.info {
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5;
+}
+@media (max-width: 400px) {
+  .info {
+    width: 90%;
+  }
+}
+.info a {
+  color: #222;
+}
+.text {
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto 50px;
+}
